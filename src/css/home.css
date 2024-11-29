@@ -1,3 +1,6 @@
+/** A COMMON CSS DOC FOR ALL THREE PAGES.**/
+
+
 *{
     padding: 0;
     margin: 0;
@@ -24,6 +27,7 @@ header{
     flex-direction: column;
     align-items: flex-start;
 }
+
 .header-h1{
     padding-top: 2vw;
     font-size: 2.8em;
@@ -43,7 +47,6 @@ header{
 nav {
     margin: 1.5rem 0;
 }
-
 
 nav ul{
     list-style: none;
@@ -65,8 +68,8 @@ nav ul button{
     cursor: pointer;
     font-size: 1.1rem;
     text-align: center;
-
 }
+
 nav ul li a {
     text-decoration: none;
     color: inherit;
@@ -76,7 +79,6 @@ nav ul li a {
 nav ul li button:hover{
     background-color: #E27D6D; 
 }
-
 
 .container{
     display: flex;
@@ -89,32 +91,11 @@ nav ul li button:hover{
 }
 
 
+/** THIS IS THE STYLE FOR THE HOME PAGE**/
+
 .left{
     display: flex;
     flex-direction: column;
-}
-
-aside article{
-    margin-bottom: 1rem;
-    padding: 1rem;
-    background-color:#F2D6D1;;
-    border: 1px solid #DDD;
-    border-radius: 0.5rem;
-}
-
-aside h3{
-    font-size: 1.2rem;
-    color: #5D4B56;
-    margin-bottom: 1rem;
-}
-
-aside ul{
-    list-style-type: disc;
-    padding-left: 2vw;
-}
-
-aside ul li{
-    font-size: 14px;
 }
 
 
@@ -176,6 +157,29 @@ figure .p-2{
 }
 
 
+aside article{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color:#F2D6D1;;
+    border: 1px solid #DDD;
+    border-radius: 0.5rem;
+}
+
+aside h3{
+    font-size: 1.2rem;
+    color: #5D4B56;
+    margin-bottom: 1rem;
+}
+
+aside ul{
+    list-style-type: disc;
+    padding-left: 2vw;
+}
+
+aside ul li{
+    font-size: 14px;
+}
+
 
 .main-footer{
     display: flex;
@@ -184,14 +188,15 @@ figure .p-2{
     gap: 3vw ;
     padding-top: 2em;
     padding-bottom: 2em;
-    color:antiquewhite;
+    color:beige;
 }
 
 .main-footer p{
     font-size: 13px;
-    font-weight:500;
 }
+
 .main-footer h4{
+    color: white;
     font-size: 1.5em;
     margin-bottom: 1vw;
 }
@@ -200,6 +205,7 @@ figure .p-2{
     color: #9A5D44;
     font-weight: bold;
 }
+
 .footer-imgs{
     display: flex;
     flex-direction: column;
@@ -227,6 +233,14 @@ figure .p-2{
     width: 75px;
     height: 75px;
     object-fit: cover;
+}
+
+.main-footer .contact{
+    margin-top: 1em;
+}
+
+.main-footer strong{
+    font-weight: bolder;
 }
 
 footer{
