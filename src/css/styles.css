@@ -1,0 +1,154 @@
+
+/**THIS IS HOME PAGE STYLE**/
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.top-left,
+.bottom-left{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+}
+
+.box{
+    width: 19vw;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.box:hover{
+    box-shadow:  4px 2px 10px rgba(118, 110, 3, 0.37); 
+    transform: scale(1.01);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.box h2{
+    color: #9A5D44;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+figcaption{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#7A6A6A;
+}
+
+.box p {
+    font-size: 14px;
+    color: black;
+}
+
+.box p a {
+    color: #9A5D44;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+figure img{
+    width: 100%;
+}
+
+figure{
+    padding: 0.8rem;
+}
+
+figure .p-2{
+    margin-top: 1.5rem;
+}
+
+
+/** THIS IS ABOUT PAGE STYLE**/
+
+
+.left-about{
+    width: 60%; 
+}
+.left-about h2{
+    margin-bottom: 0.6rem;
+    color:#9A5D44;
+
+}
+
+.left-about section{
+    margin-bottom: 2rem;
+}
+
+.left-about p{
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.left-about strong{
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+/** THIS IS CONTACT PAGE STYLE**/
+
+.left-contact{
+    font-size: 14px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+.left-contact h2{
+    color: #9A5D44;
+    margin-bottom: 1rem;
+}
+
+.left-contact p{
+    margin-bottom: 0.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-size: 0.9rem;
+    color: #4E4E4E;
+    font-weight: bold;
+}
+
+input, textarea{
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem; 
+    margin-bottom: 0.8rem;
+}
+
+.button {
+    background-color: #D9A6A1;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.button:hover {
+    background-color: #E27D6D;
+}
